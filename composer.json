@@ -1,6 +1,6 @@
 {
-    "name": "unwiredbrain/php-emv",
-    "description": "A collection of EMV tools and utilities for PHP 5.3+",
+    "name": "billpocket/php-emv",
+    "description": "A collection of EMV tools and utilities for PHP 5.3+ (fork of Massimo Lombardo's project)",
     "type": "library",
     "keywords": [
         "emv",
@@ -11,7 +11,7 @@
         "ber-tlv",
         "tlv"
     ],
-    "homepage": "https://github.com/unwiredbrain/php-emv",
+    "homepage": "https://github.com/Billpocket/php-emv",
     "license": "MIT",
     "authors": [
         {
