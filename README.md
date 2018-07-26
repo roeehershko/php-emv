@@ -2,6 +2,8 @@
 
 A collection of EMV tools and utilities for PHP 5.3+
 
+**This is a fork of Massimo Lombardo's [project][ORIGIN]**
+
 ## Installation
 
 The recommended way to install PHP EMV is through [Composer][COMPOSER]:
@@ -9,7 +11,7 @@ The recommended way to install PHP EMV is through [Composer][COMPOSER]:
 ```json
 {
     "require": {
-        "unwiredbrain/php-emv": "@stable"
+        "billpocket/php-emv": "@stable"
     }
 }
 ```
@@ -18,7 +20,22 @@ The recommended way to install PHP EMV is through [Composer][COMPOSER]:
 $ composer install
 ```
 
-**ProTip** -- avoid the `@stable` keyword, [use a proper version tag][PACKAGIST_VERSION] instead.
+## Basic Usage
+
+For parse from string (codec by HEX):
+
+```php
+{
+    use \EMV\Codec;
+    
+    $codecObj = new Codec();
+    
+    $codecObj->unserialize($hexTLV); //this returns an array
+    
+}
+```
+
+
 
 [COMPOSER]: https://getcomposer.org/
 [PACKAGIST_VERSION]: https://packagist.org/packages/unwiredbrain/php-emv
@@ -54,6 +71,7 @@ Here are a few basic rules so that nobody gets grumpy:
 [COMMITS]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [REBASING]: http://git-scm.com/book/en/Git-Branching-Rebasing
 [SQUASHING]: http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html
+[ORIGIN]: https://github.com/unwiredbrain/php-emv
 
 ## Credits
 
