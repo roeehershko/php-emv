@@ -1,5 +1,5 @@
 {
-    "name": "billpocket/php-emv",
+    "name": "dukim/php-emv",
     "description": "A collection of EMV tools and utilities for PHP 5.3+ (fork of Massimo Lombardo's project)",
     "type": "library",
     "keywords": [
@@ -14,6 +14,10 @@
     "homepage": "https://github.com/Billpocket/php-emv",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Roee hershko",
+            "email": "hershko765@gmail.com"
+        },
         {
             "name": "Massimo Lombardo",
             "email": "unwiredbrain@gmail.com",
