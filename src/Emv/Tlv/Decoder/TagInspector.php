@@ -11,7 +11,7 @@
 
 namespace Emv\Emv\Tlv\Decoder;
 
-use Emv\Tlv\Codec\Tag;
+use Emv\Emv\Tlv\Codec\Tag;
 
 /**
  * Provides tag byte inspection capabilities.

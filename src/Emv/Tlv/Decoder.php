@@ -11,9 +11,9 @@
 
 namespace Emv\Emv\Tlv;
 
-use Emv\Tlv\Decoder\TagInspector as Tag;
-use Emv\Tlv\Decoder\LengthInspector as Length;
-use Emv\Tlv\Decoder\Exception\MalformedDataBlockException;
+use Emv\Emv\Tlv\Decoder\TagInspector as Tag;
+use Emv\Emv\Tlv\Decoder\LengthInspector as Length;
+use Emv\Emv\Tlv\Decoder\Exception\MalformedDataBlockException;
 
 /**
  * Decoder is a tool to unserialize EMV TLV-encoded data blocks into structured trees.

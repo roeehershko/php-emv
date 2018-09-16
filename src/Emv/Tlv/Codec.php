@@ -11,8 +11,8 @@
 
 namespace Emv\Emv\Tlv;
 
-use Emv\Tlv\Decoder;
-use Emv\Tlv\Encoder;
+use Emv\Emv\Tlv\Decoder;
+use Emv\Emv\Tlv\Encoder;
 
 /**
  * Decoder is a tool to unserialize EMV TLV-encoded payloads into structured
