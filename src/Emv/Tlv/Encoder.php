@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Emv\Tlv;
+namespace Emv\Emv\Tlv;
 
 use Emv\Tlv\Decoder\TagInspector as Tag;
 use Emv\Tlv\Decoder\LengthInspector as Length;

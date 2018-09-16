@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Emv\Tlv\Decoder\Exception;
+namespace Emv\Emv\Tlv\Decoder\Exception;
 
 /**
  * Common exception interface for the Decoder component.

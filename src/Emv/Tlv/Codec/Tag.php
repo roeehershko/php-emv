@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Emv\Tlv\Codec;
+namespace Emv\Emv\Tlv\Codec;
 
 /**
  * Provides common tag byte properties.

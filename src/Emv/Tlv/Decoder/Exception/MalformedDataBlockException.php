@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Emv\Tlv\Decoder\Exception;
+namespace Emv\Emv\Tlv\Decoder\Exception;
 
 /**
  * Thrown when a EMV TLV data block is malformed.
