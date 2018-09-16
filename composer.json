@@ -29,7 +29,6 @@
         "wiki": "https://github.com/unwiredbrain/php-emv/wiki",
         "source": "https://github.com/unwiredbrain/php-emv"
     },
-    "minimum-stability": "stable",
     "require": {
         "php": ">=5.3.0",
         "ext-ctype": "*"
